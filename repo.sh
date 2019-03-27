@@ -1,19 +1,18 @@
 
 #!/bin/bash
 ## combine and clean logs ready for gource
-## https://github.com/acaudwell/Gource/wiki/Visualizing-Multiple-Repositories
+## https://github.com/Wessheck/gource-live
 
 # user/org repo location
-src="https://github.com/Wessheck/gource-live"
+src="https://github.com/Wessheck/"
 
 # some repos to combine...
-repos=("https://github.com/svenju/testgource")
+repos=("testgource" \ "gource-live")
 
 # username mapping fix for incorrect user.name
 declare -A user_fix
 user_fix["Imran"]="Wessheck"
-user_fix["Imran"]="Wessheck"
-user_fix["Imran"]="Wessheck"
+user_fix["Sven"]="svenju"
 
 # get repos or update
 rm -f combo.log
