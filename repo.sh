@@ -4,7 +4,7 @@
 ## https://github.com/acaudwell/Gource/wiki/Visualizing-Multiple-Repositories
 
 # user/org repo location
-src="https://github.com/phil8192"
+src="https://github.com/Wessheck/gource-live"
 
 # some repos to combine...
 repos=("ob-analytics" "limit-order-book" "shiny-ob-analytics" "tsp-java" \
@@ -14,9 +14,9 @@ repos=("ob-analytics" "limit-order-book" "shiny-ob-analytics" "tsp-java" \
 
 # username mapping fix for incorrect user.name
 declare -A user_fix
-user_fix["Phil Stubbings"]="phil8192"
-user_fix["Phil"]="phil8192"
-user_fix["phil"]="phil8192"
+user_fix["Imran"]="Wessheck"
+user_fix["Imran"]="Wessheck"
+user_fix["Imran"]="Wessheck"
 
 # get repos or update
 rm -f combo.log
