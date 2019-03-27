@@ -7,10 +7,7 @@
 src="https://github.com/Wessheck/gource-live"
 
 # some repos to combine...
-repos=("ob-analytics" "limit-order-book" "shiny-ob-analytics" "tsp-java" \
-       "ticker" "image-evolution" "tsp-lisp" "dithering-algorithms" \
-       "tsp-art" "athens-traffic" "neuroevolution" "neural-network-light" \
-       "kaggle-lmgpip" "pal-test" "lazy-iris" "proto-exchange")
+repos=("https://github.com/svenju/testgource")
 
 # username mapping fix for incorrect user.name
 declare -A user_fix
